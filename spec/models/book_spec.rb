@@ -13,7 +13,7 @@ RSpec.describe Book, :type => :model do
   end
 
   it "is invalid without an author" do
-    book = FactoryGirl.build(:book, author: nil)
+    book = FactoryGirl.build(:book, author_name: nil)
     expect(book).to be_invalid
   end
 
