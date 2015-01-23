@@ -1,9 +1,9 @@
 FactoryGirl.define do
   factory :book do
-    title "MyString"
-author_name "MyString"
-subject "MyString"
-status false
+    title "1Q84"
+    author_name "Haruki Murakami"
+    subject "Fiction"
+    status false
   end
 
 end
